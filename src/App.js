@@ -1,12 +1,9 @@
 import React from 'react';
+import HeaderNav from "./containers/HeaderNav/HeaderNav";
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <h1>HEllo</h1>
-            </header>
-        </div>
+        <HeaderNav/>
     );
 }
 
