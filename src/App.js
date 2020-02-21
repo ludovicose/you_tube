@@ -1,15 +1,12 @@
 import React from 'react';
-import HeaderNav from "./containers/HeaderNav/HeaderNav";
-import {SideBar} from "./containers/SideBar/SideBar";
 import {Home} from './containers/Home/Home'
+import {AppLayout} from "./components/AppLayout/AppLayout";
 
 function App() {
     return (
-        <React.Fragment>
-            <HeaderNav/>
-            <SideBar/>
+        <AppLayout>
             <Home/>
-        </React.Fragment>
+        </AppLayout>
     );
 }
 
